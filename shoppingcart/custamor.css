@@ -1,0 +1,40 @@
+.pra{
+    font-size: 40px;
+    font-weight: 500;
+ 
+    color: rgb(238, 226, 240);
+}
+.totale{
+    background-image:url("images/coffee2.jpg");
+
+
+background-repeat: no-repeat; /* Do not repeat the image */
+}
+.heading{
+    font-size: 100px;
+    font-weight: 600;
+    
+    color: #ffe0bb;
+text-shadow: 0 0 5px #48280e, 0 0 10px #62340f, 0 0 15px #8f5015, 0 0 20px #fffaef;
+    animation: glow 2s infinite alternate;
+}
+
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 2px #48280e, 0 0 2px #62340f, 0 0 2px #8f5015, 0 0 4px #fffdf8;
+    }
+    to {
+      text-shadow: 0 0 10px #48280e, 0 0 20px #62340f, 0 0 30px #8f5015, 0 0 40px #ffffff;
+    }
+  }
+.paragraphcountiner{
+    background-color: rgba(10, 10, 10,0.7);
+    border-radius: 10px;
+}
+
+.message{
+  
+  top:1000px; left:600px;
+ 
+}

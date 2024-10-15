@@ -1,0 +1,26 @@
+.image-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Space between images */
+  margin-right: 50px;
+  margin-bottom: 50px;
+  
+ 
+}
+
+.image-container img {
+  width: 500px;
+  height: auto; /* Maintain aspect ratio */
+  border: 2px solid tomato;
+  border-radius: 10px;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease, transform 0.3s ease;
+ 
+}
+
+.image-container:hover img {
+  filter: grayscale(0%);
+  transform: scale(1.2);
+}

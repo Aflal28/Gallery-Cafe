@@ -1,0 +1,106 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: Arial, sans-serif;
+    
+    color: #333;
+    background-image:url("images/pramotionimage.jpg");
+  
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+  
+  /* Container Styling */
+  .promotiom_countiner {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin-top: 200px;
+  margin-left: 140px;
+  }
+  
+  /* Food Item Styling */
+  .foods {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .foods h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .foods p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .foods img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    width: 200px;
+    height: 150px;
+  }
+  
+  /* Price Styling */
+  .foods p.price {
+    font-size: 20px;
+    color: #e74c3c;
+    font-weight: bold;
+  }
+  
+  /* Older Price Styling */
+  .foods p.old-price {
+    text-decoration: line-through;
+    color: #888;
+  }
+  /* Basic Button Styling */
+button {
+  background: linear-gradient(135deg, #076e4c, #16b30b); /* Gradient background */
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  color: white; /* Text color */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Font weight */
+  padding: 12px 24px; /* Padding inside the button */
+  cursor: pointer; /* Cursor pointer on hover */
+  transition: background 0.3s ease, transform 0.2s ease; /* Transition effects */
+}
+
+/* Hover and Focus Effects */
+button:hover, button:focus {
+  background: linear-gradient(135deg, #feb47b, #ff7e5f); /* Reverse gradient on hover */
+  transform: scale(1.05); /* Slightly enlarge the button */
+  outline: none; /* Remove focus outline */
+}
+
+/* Disabled State */
+button:disabled {
+  background: #ccc; /* Grey background for disabled state */
+  cursor: not-allowed; /* Cursor change for disabled state */
+  color: #666; /* Grey text color */
+  box-shadow: none; /* No shadow for disabled state */
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+  

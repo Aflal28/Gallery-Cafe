@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+
+.countiner{
+    
+    width: 100%;
+
+}
+.header{
+    display: flex;
+    justify-content:center;
+    padding-bottom: 10px;
+   margin-right: 150px;
+    gap: 30px;
+}
+
+.readbox{
+   
+    width: 80px;
+    height: 80px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(221, 13, 13, 0.2);
+    border-radius: 16px;
+    color: #cccccc;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.seatcountiner{
+    display: flex;
+    justify-content: center;
+    width:600px;
+    height: 600px;
+   flex-wrap: wrap;
+   align-items: center;
+   margin-left: 300px;
+   justify-content:space-between;
+ background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    color: #101110;
+    background-color: #00ff00;
+height: 80px;
+width: 80px;
+margin-left: 10px;
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+.boxes:hover{
+    background: rgba(4, 73, 31, 0.2);
+}
+.coffeimage{
+    background-image: url("images/cd6f3-sw-630718.webp"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 800px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+  .tabalebtn {
+    position: relative;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1em 2.5em;
+    display: inline-block;
+    border-radius: 6em;
+    transition: all .2s;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    color: black;
+    background-color: white;
+    margin-left: 500px;
+    margin-top: 10px;
+   }
+   
+   .tabalebtn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+   }
+   
+   .tabalebtn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+   }
+   
+   .tabalebtn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+   }
+   
+   .tabalebtn::after {
+    background-color: #fff;
+   }
+   
+   .tabalebtn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+   }
+

@@ -1,0 +1,31 @@
+body{
+    background-image: url('images/coffee2.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.paragraphcountiner{
+    background-color: transparent;
+}
+.gchaf{
+    position: absolute;
+    top: 55px;
+    left: 10px;
+    animation: float 0s ease-in-out infinite;
+    height: 180px;
+    width: 150px;
+    
+}
+
+/* Keyframes for floating effect */
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Adjust as needed */
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
